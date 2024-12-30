@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>EVA FUNCTION</h2>
+    <button onclick="myfun()">Test</button>
+    <p id="para"></p>
+    <script>
+        function myfun()
+        {
+            var x=40;
+            var y=10;
+            var a=eval("x-y")+"<br>"
+            var b = eval("4+4") + "<br>"
+             var c = eval("y-x") + "<br>"
+             var res=a+b+c
+             document.getElementById("para").innerHTML=res;
+        }
+        </script>
+</body>
+</html>
